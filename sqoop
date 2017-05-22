@@ -1,0 +1,2 @@
+ sqoop import --connect jdbc:mysql://localhost/sqoop --table emp_data --username root --password acadgild --target-dir /user/acadgild/sqoop1 --incremental append --check-column id
+
